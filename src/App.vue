@@ -3,6 +3,7 @@
     <NavMenu />
     <Header />
     <Hero />
+    <About />
   </div>
 </template>
 
@@ -10,11 +11,11 @@
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
 import NavMenu from './components/NavMenu.vue'
-
+import About from './components/About.vue'
 
 export default {
   name: 'App',
-  components: { Header, Hero, NavMenu },
+  components: { Header, Hero, NavMenu, About },
 }
 </script>
 
@@ -35,6 +36,7 @@ export default {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color:black;
 }
 
 </style>
