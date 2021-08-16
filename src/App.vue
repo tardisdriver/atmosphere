@@ -5,6 +5,7 @@
     <Hero />
     <About />
     <Roadmap />
+    <Team />
   </div>
 </template>
 
@@ -14,10 +15,11 @@ import Hero from './components/Hero.vue'
 import NavMenu from './components/NavMenu.vue'
 import About from './components/About.vue'
 import Roadmap from './components/Roadmap.vue'
+import Team from './components/Team.vue'
 
 export default {
   name: 'App',
-  components: { Header, Hero, NavMenu, About, Roadmap },
+  components: { Header, Hero, NavMenu, About, Roadmap, Team },
 }
 </script>
 
