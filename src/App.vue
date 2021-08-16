@@ -38,7 +38,8 @@ export default {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color:black;
+  background-image: url("./assets/space.jpg");
+  background-size: cover;
 }
 
 </style>
