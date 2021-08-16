@@ -1,8 +1,8 @@
 <template>
     <!-- <div> -->
-        <vs-navbar color="black">
+        <vs-navbar>
             <vs-navbar-item v-for="item in navMenuItems" :key="item.ID">
-                {{ item }}
+                <span class="nav-item">{{ item }}</span>
             </vs-navbar-item>
         </vs-navbar>
     <!-- </div> -->
@@ -16,3 +16,9 @@ export default {
    })
 }
 </script>
+
+<style lang="scss">
+    .nav-item {
+        padding: 5px 10px;
+    }
+</style>

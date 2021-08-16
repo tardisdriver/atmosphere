@@ -1,7 +1,7 @@
 <template>
     <div id='header'>
+        <!-- <nav-menu /> -->
         <h1>Stratosphere</h1>
-        <nav-menu />
         <div id="buy-buttons">
             <vs-button>Button 1</vs-button>
             <vs-button>Button 2</vs-button>
@@ -10,11 +10,11 @@
 </template>
 
 <script>
-import NavMenu from './NavMenu.vue'
+// import NavMenu from './NavMenu.vue'
 
 export default {
     name: 'Header',
-    components: { NavMenu },
+    // components: { NavMenu },
 }
 </script>
 <style lang="scss" scoped>
