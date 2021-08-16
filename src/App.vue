@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <NavMenu />
     <Header />
     <Hero />
   </div>
@@ -8,11 +9,12 @@
 <script>
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
+import NavMenu from './components/NavMenu.vue'
 
 
 export default {
   name: 'App',
-  components: { Header, Hero },
+  components: { Header, Hero, NavMenu },
 }
 </script>
 
