@@ -40,7 +40,7 @@ export default {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-image: url("./assets/space.jpg");
+  background-image: url("./assets/space-background.png");
   background-size: cover;
 }
 
